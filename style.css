@@ -1,0 +1,102 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width:100%;
+    min-height:100vh;
+   background-image: url('Hero.jpg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+
+}
+
+
+.row{
+    width:100%;
+    padding:0px 80px;
+
+}
+.navbar{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 0px;
+    position:relative;
+    z-index:1;
+}
+.navbar ul{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    padding:10px 18px;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-size:17px ;
+    color:white;
+    text-decoration:none;
+}
+.navbar ul li a:hover{
+    background-color:#2d88d5;
+}
+.active{
+    background-color:#2d88d5;
+}
+.logo{
+    color:antiquewhite;
+    font-size: 40px;
+    font-weight:400px ;
+    text-transform: uppercase;
+    margin-top:10px ;
+    cursor: pointer;
+    text-decoration: none;
+}
+.content{
+    width:80%;
+    min-height:100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content h1{
+    font-size: 44px;
+    color:#fff;
+    font-weight: 400;
+
+}
+.content p{
+    font-size: 17px;
+    color:#fff; 
+}
+.content a{
+    text-decoration: none;
+    margin-top: 20px;
+    font-size:19px;
+    display:inline-block;
+    letter-spacing:2px ;
+    padding:12px 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    color:black;
+}
+.content a:hover{
+    background-color: #2d88d5;
+    color: #fff;
+
+}
